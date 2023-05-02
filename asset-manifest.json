@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fylo/static/css/main.a4fda643.css",
+    "main.js": "/fylo/static/js/main.b73eca57.js",
+    "static/js/787.42d30989.chunk.js": "/fylo/static/js/787.42d30989.chunk.js",
+    "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/fylo/static/media/OpenSans-VariableFont_wdth,wght.cee866affd5294849699.ttf",
+    "static/media/Raleway-VariableFont_wght.ttf": "/fylo/static/media/Raleway-VariableFont_wght.238c232d5e08ec0c1c74.ttf",
+    "static/media/illustration-intro.png": "/fylo/static/media/illustration-intro.c20d85255009f195b4a6.png",
+    "static/media/illustration-stay-productive.png": "/fylo/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
+    "static/media/icon-collaboration.svg": "/fylo/static/media/icon-collaboration.6c80c0a4c84274f029eb51c36f603765.svg",
+    "static/media/logo.svg": "/fylo/static/media/logo.f5363383bf279490c4aba63ca2917a80.svg",
+    "static/media/icon-access-anywhere.svg": "/fylo/static/media/icon-access-anywhere.2856c661b15230024a11eb4b089dd3f1.svg",
+    "static/media/icon-any-file.svg": "/fylo/static/media/icon-any-file.fc9b91ba9923102f3aa45c19bc3244e6.svg",
+    "static/media/icon-security.svg": "/fylo/static/media/icon-security.b6a932b6269cf10d3339e0a3d22c8b4e.svg",
+    "static/media/icon-arrow.svg": "/fylo/static/media/icon-arrow.2491a46a96689783ec3c96bfb90aa30c.svg",
+    "index.html": "/fylo/index.html",
+    "static/media/bg-curvy-desktop.svg": "/fylo/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d.svg",
+    "static/media/bg-curvy-mobile.svg": "/fylo/static/media/bg-curvy-mobile.3ab5d2c7091bda722a7b.svg",
+    "static/media/icon-phone.svg": "/fylo/static/media/icon-phone.43c05d1a510cada2b8f305cbb2278ae4.svg",
+    "static/media/icon-location.svg": "/fylo/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
+    "static/media/icon-email.svg": "/fylo/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
+    "main.a4fda643.css.map": "/fylo/static/css/main.a4fda643.css.map",
+    "main.b73eca57.js.map": "/fylo/static/js/main.b73eca57.js.map",
+    "787.42d30989.chunk.js.map": "/fylo/static/js/787.42d30989.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4fda643.css",
+    "static/js/main.b73eca57.js"
+  ]
+}
