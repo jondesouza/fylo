@@ -1,0 +1,56 @@
+.advantages {
+    padding: 25px 10% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage img {
+    max-width: 16%;
+    max-height: 20%;
+}
+
+.adv-title {
+    font: 700 1.2rem 'Raleway', sans-serif;
+    padding-bottom: 25px;
+}
+
+.desktop {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .advantage .info {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 800px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 10% 0;
+    }
+
+    .col-1,
+    .col-2 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}

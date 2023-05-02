@@ -1,0 +1,104 @@
+.functioning {
+    padding: 25px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productive img {
+    max-width: 100%;
+}
+
+.func-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.func-title {
+    font: 700 1.2rem 'Raleway', sans-serif;
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.func-box .info {
+    height: auto;
+    padding: 4% 0;
+}
+
+.working {
+    cursor: pointer;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: var(--terciary1);
+    border-bottom: 1px solid var(--terciary1);
+    padding-bottom: 1%;
+    transition: all ease 0.2s;
+}
+
+.working img {
+    padding-top: 3%;
+}
+
+.working:hover {
+    color: white;
+    transition: all ease 0.2s;
+}
+
+@media (min-width: 376px) {
+    .productive img {
+        max-width: 75%;
+    }
+}
+
+@media (min-width: 700px) {
+    .image-intro img {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 900px) {
+    .functioning {
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .productive {
+        width: 45%;
+    }
+
+    .func-box {
+        width: 50%;
+        gap: 15px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .func-title {
+        font-size: 1.6rem;
+    }
+
+    .func-title,
+    .func-box .info {
+        text-align: left;
+        padding: 0;
+        max-width: 90%;
+    }
+
+    .productive img {
+        max-width: 75%;
+    }
+}

@@ -1,0 +1,103 @@
+.quotes {
+    padding: 25px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: max-content;
+    column-gap: 25px;
+}
+
+.img-quote {
+    position: absolute;
+    z-index: 10;
+}
+
+.gen-quote {
+    z-index: 11;
+    width: 100%;
+    background-color: var(--secondary1);
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.text-quote {
+    font: 400 0.75rem 'OpenSans', sans-serif;
+    color: white;
+    height: 55%;
+}
+
+.author {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3%;
+}
+
+.image-author {
+    width: 15%;
+    overflow: hidden;
+}
+
+.image-author img {
+    max-height: 85%;
+    max-width: 85%;
+    border-radius: 100%;
+}
+
+.info-author {
+    width: 80%;
+    margin-top: -5px;
+}
+
+.name-author,
+.role-author {
+    font: 700 0.75rem 'OpenSans', sans-serif;
+    color: white;
+}
+
+.role-author {
+    font: 400 0.65rem 'OpenSans', sans-serif;
+    padding-top: 1%;
+}
+
+@media (min-width: 550px) {
+    .quotes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    .img-quote {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .gen-quote {
+        width: 45%;
+    }
+}
+
+@media (min-width: 976px) {
+    .gen-quote {
+        width: 48.4%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .gen-quote {
+        width: 31%;
+    }
+}

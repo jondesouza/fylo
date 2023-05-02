@@ -1,0 +1,131 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--principal);
+    overflow: hidden;
+}
+
+.image-intro {
+    width: 100%;
+    max-width: 100%;
+    min-height: 65vh;
+    background-color: transparent;
+    padding: 25% 10%;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.image-intro img {
+    max-width: 100%;
+}
+
+.home-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: url('../assets/images/bg-curvy-mobile.svg'), linear-gradient(180deg, transparent 80%, var(--background) 20%);;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 85px 0 0;
+}
+
+.page-title {
+    z-index: 11;
+    font: 700 1.5rem 'Raleway', sans-serif;
+    padding: 0 10%;
+    line-height: 1.4;
+    color: white;
+    text-align: center;
+    background: linear-gradient(180deg, transparent 50%, var(--background) 50%);
+}
+
+.info {
+    padding: 4% 10%;
+    text-align: center;
+    font: 400 0.9rem 'OpenSans', sans-serif;
+    color: white;
+    width: 100%;
+    max-width: 750px;
+    height: 110px;
+    background-color: var(--background);
+}
+
+.get-started {
+    cursor: pointer;
+    background-color: var(--terciary2);
+    border-radius: 40px;
+    border: none;
+    font: 700 0.9rem 'OpenSans', sans-serif;
+    color: white;
+    transition: all ease 0.2s;
+    max-width: 200px;
+    padding: 15px 50px;
+}
+
+.get-started:hover {
+    background-color: var(--terciary1);
+    transition: all ease 0.2s;
+}
+
+@media (min-width: 376px) {
+    .home {
+        min-height: 600px;
+        background-image: url('../assets/images/bg-curvy-desktop.svg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        justify-content: center;
+    }
+
+    .home-info {
+        background-image: none;
+        padding: 0;
+    }
+    
+    .image-intro {
+        position: relative;
+        padding: 3% 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-intro img {
+        max-width: 75%;
+    }
+
+    .page-title,
+    .info {
+        background-color: transparent;
+        background-image: none;
+    }
+
+    .info {
+        padding: 1% 10%;
+    }
+}
+
+@media (min-width: 700px) {
+    .image-intro img {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .page-title,
+    .info {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1100px) {
+    .page-title,
+    .info {
+        max-width: 55%;
+    }
+}

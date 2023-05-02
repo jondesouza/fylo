@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-VariableFont_wght.ttf')
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+--principal: #1c2431;
+--secondary1: #202a3c;
+--secondary2: #0b1523;
+--terciary1: #65e2d9;
+--terciary2: #339ecc;
+--terciary3: #ff4242;
+--background: #181f2a;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

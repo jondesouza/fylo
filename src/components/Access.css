@@ -1,0 +1,95 @@
+.access {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 10%;
+    background: -webkit-linear-gradient(180deg, transparent 50%, var(--secondary2) 50%);
+    background: -o-linear-gradient(180deg, transparent 50%, var(--secondary2) 50%);
+    background: -moz-linear-gradient(180deg, transparent 50%, var(--secondary2) 50%);
+    background: linear-gradient(180deg, transparent 50%, var(--secondary2) 50%);
+}
+
+.access-box {
+    width: 100%;
+    padding: 50px;
+    background-color: var(--principal);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    box-shadow: 4px 4px 20px 0.5px;
+}
+
+.access .info {
+    padding: 0;
+    background-color: var(--principal);
+    font-size: 0.85rem;
+    height: auto;
+    max-width: 80%;
+}
+
+.access-title {
+    font: 700 1.2rem 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.thin-screen .get-started {
+    width: 100%;
+    min-width: 100%;
+    padding: 15px;
+}
+
+.email {
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    font: 400 0.9rem 'OpenSans', sans-serif;
+    color: var(--secondary2);
+}
+
+.email:focus {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.large-screen {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .access-box {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 750px) {
+    .access-box {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1100px) {
+    .thin-screen {
+        display: none;
+    }
+
+    .large-screen {
+        display: flex;
+    }
+
+    .input {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+    }
+
+    .large-screen .get-started {
+        width: 55%;
+        padding: 15px 0;
+    }
+}
